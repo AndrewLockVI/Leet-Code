@@ -5,7 +5,15 @@
 [0 1 2 3 4 5 6 7 8 9 10 11 12 13 14]
 
 
-
+//Leet Ratings
+//       Speed  Memory
+//Total  4ms   11.3MB    
+//Beats  99.3% 13.46%
+//
+//This is so fast because it uses an O(n) algorithm where it only goes through
+//the entire vector one time at most by utilizing a hashmap that stores
+//values and the index that they occured at for faster execution at the
+//cost of memory.
 
 
 
