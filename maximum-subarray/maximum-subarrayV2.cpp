@@ -5,8 +5,8 @@ using namespace std;
 
 //Leet Ratings
 //       Speed  Memory
-//Total  121ms  67.8MB    
-//Beats  46.20% 63.61%
+//Total  109ms  67.9MB    
+//Beats  84.63% 17.63%
 //
 //Optimized to start iterating once a negative is reached in the prior
 //set of iterations.
