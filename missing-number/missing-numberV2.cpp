@@ -6,8 +6,9 @@ using namespace std;
 
 //Leet Ratings
 //       Speed  Memory
-//Total  23ms    18.6MB    
-//Beats  46.26%  8%
+//Total  18ms    17.9MB    
+//Beats  77.86%  94.74%
+
 
 
 int missingNumber(vector<int>& nums) {
@@ -22,11 +23,7 @@ int missingNumber(vector<int>& nums) {
         }
     }
     return 0;
-
 }
-
-
-
 
 int main(){
 
