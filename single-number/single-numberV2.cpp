@@ -6,9 +6,11 @@ using namespace std;
 
 
 // Time:    Memory:
-// 27ms     20.2MB
-// 35.71%   14.99%
-//
+// 20ms     16.9MB
+// 64.90%   57.10%
+// This is faster than using a map because the map requires a lot of checks
+// to see if the map already has a value in it. Then it needs to iterate through the list
+// again to find which value did not have a pairing.
 
 //Another solution that involves sorting the list and then checking to
 //see if the next value in the list is equal to the current value.
