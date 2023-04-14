@@ -2,6 +2,9 @@
 using namespace std;
 
 
+//Time: 3ms Beats: 83.17%
+//Memory: 10.7MB Beats: 39.89%
+
 struct ListNode {
     int val;
     ListNode *next;
