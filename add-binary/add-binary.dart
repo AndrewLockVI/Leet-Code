@@ -10,7 +10,7 @@
 
 void main(){
     Solution sol = new Solution();
-    print(sol.addBinary("010110101011", "1010111010101");
+    print(sol.addBinary("010110101011", "1010111010101"));
 
 }
 
