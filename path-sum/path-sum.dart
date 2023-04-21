@@ -2,7 +2,8 @@
 //added together is equal to the targetSum. 
 //The time complexity of this is O(n) because in the worst case 
 //the algorithm will visit all nodes.
-
+//Time: 298ms Beats: 61.11%
+//Memory: 146.4MB Beats:16.67%
 
 class Solution {
   int goal = 0;
