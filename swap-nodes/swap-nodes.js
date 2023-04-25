@@ -2,7 +2,8 @@
 //[x1 , y1 , x2 , y3] -> [y1 , x1 , y2, x2]
 //This solution has a time compexity of O(n) where n
 //is the length of the linked list.
-
+//Time: 54ms Beats: 82.81%
+//Memory: 42.2MB Beats: 40.88%
 
 /**
  * Definition for singly-linked list.
