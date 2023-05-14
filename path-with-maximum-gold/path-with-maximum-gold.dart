@@ -1,7 +1,6 @@
 //This solution uses recursion to traverse through a matrix where each tile has gold and the 
 //player can only move one tile at a time. You need to return the highest amount of gold that can be 
 //collected without ever stepping on a spot that has 0 gold.
-//The time complexity of this code is O(4^n) where n is the number of values in the matrix.
 //Time: 1510ms Beats: 100%
 //Memory: 181.6MB Beats: 100%
 class Solution {
