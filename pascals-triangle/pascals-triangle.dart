@@ -1,8 +1,10 @@
 //Given a number of rows return the values contained in each
-//row of pascals triangle. This solution is a brute force recursion
+//row of pascals triangle. This solution is the optimal solution using recursion
 //solution with a time complexity of O(n^2)
-//Time: 346ms Beats: 5.81%
-//Memory: 141.3MB Beats: 22.9%
+//There is no reason to use DP in this because there is no request to create multiple 
+//triangles. As such there is no recomputing.
+//Time: 258ms Beats: 73.26%
+//Memory: 140.2MB Beats: 88.37%
 class Solution {
   List<List<int>> generate(int numRows) {
       if(numRows == 1){
