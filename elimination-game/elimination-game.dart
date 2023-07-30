@@ -4,7 +4,7 @@
 //The time complexity of this code is O(n^2) where n is the length of the list
 //it is this slow because the a memcopy is required to remove a specific index from a list (O(n) time)
 //This code is too slow for leet code, but it is the intuitive solution to the problem.
-
+//
 class Solution {
   int lastRemaining(int n) {
     List<int> vals = [];
